@@ -12,5 +12,7 @@ using System.Data.Entity;
         {
 
         }
+
+        public System.Data.Entity.DbSet<sales.common.models.Product> Products { get; set; }
     }
 }
