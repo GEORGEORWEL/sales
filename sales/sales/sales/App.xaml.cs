@@ -4,13 +4,14 @@ using Xamarin.Forms.Xaml;
 
 namespace sales
 {
+    using Views;
     public partial class App : Application
     {
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage (new ProductsPages());
         }
 
         protected override void OnStart()

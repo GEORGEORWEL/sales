@@ -19,4 +19,10 @@
   <ItemGroup>
     <ProjectReference Include="..\..\sales.common\sales.common.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\ProductsPages.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
 </Project>
